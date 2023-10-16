@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+}
+.container{
+    display:flex;
+}
+.container>*{
+    display: block;
+}
+.container{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    background-color: aquamarine;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p{
+    text-decoration: underline;
+}

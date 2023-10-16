@@ -1,0 +1,20 @@
+
+button{
+    text-decoration: rgb(112, 66, 155);
+
+}
+.a{
+    margin-right: 100px;
+    position: absolute;
+    top: 0px;
+    display: block;
+   
+}
+.foot{
+    display: flex;
+   
+    background-color: rgb(112, 66, 155);
+    height: 300px;
+    border: 30px;
+
+}

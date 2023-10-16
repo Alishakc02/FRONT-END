@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 1450px;
+    height: 840px;
+    background-image: linear-gradient(rgba(0,0,0,0.3)transparent);
+    background-image: url(./images/alishas.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    width: 100;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5 0;
+   
+    
+
+}
+nav ul{
+    flex:1;
+    padding-right: 30px;
+    text-align: right;
+}
+nav a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+   
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 50px;
+}
+nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     position:relative;
+    }
+nav ul li a::after{
+    content: '';
+    width: 0px;
+    position:absolute;
+    height: 3px;
+    bottom:-6px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    background: #fff;
+    transition: width 0.4s;
+
+}
+nav ul li a:hover::after{
+    width:50px;
+
+}
+.text{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+}
+   .text p {
+    font-size: 50px;
+    font-weight: 600;}
+
+  .text h1 {
+        font-size:160px;
+        line-height: 160px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+        background-image:url(./images/Blank.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+         animation: back 20s linear infinite;
+        
+    
+   
+    }
+    @keyframes back{
+        100%{
+            background-position: 2000px 0;
+        }
+    }
+
+       .text h3 {
+             font-size: 50px;
+             font-weight: 600;
+            
+        }
+.text .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text  a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid white ;
+    display: flex;
+    align-items: center;
+}
+.row a span{
+    font-size: 20px;
+    line-height:15px ;
+    margin-left: 5px;
+}
+.social-media{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+   width: 25px;
+   display:block ;
+   margin: 25px 5px;
+}

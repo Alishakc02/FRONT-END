@@ -1,0 +1,90 @@
+/*.paragraph > p:nth-of-type(3)
+{
+    color:red;
+
+}
+.paragraph > p:first-child {
+    color: blue;}
+    
+
+
+.paragraph>p:nth-of-type(odd){
+    color:red;
+}
+.paragraph>p:nth-of-type(even) {
+    color:rgb(165, 42, 81) !important;
+}
+.paragraph>p:last-of-type{
+    color:yellowgreen ;
+}
+.paragraph>p:first-of-type
+{
+    color:magenta;   
+}
+*/
+.image>img{
+height: 300spx;
+width:1000px;
+}
+
+.image{
+    position: relative;
+}
+
+/*.image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: beige;
+}
+.image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: coral;
+
+
+}*/
+
+
+
+.title{
+    margin-top: 100px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title>p {
+    width: max-content;
+    text-align: center;
+    position: relative;
+
+}
+.title>p::before{
+    content:"";
+    left: -80px;
+    position: absolute;
+    top: 12px;
+    width: 60px;
+    height: 2px;
+    background-color: blueviolet;
+
+    
+}
+.title>p::after{
+    content: "";
+    right: 0;
+    position: absolute;
+    right: -80px;
+    top: 12px;
+    width: 60px;
+    height: 2px;
+    background-color: blueviolet;
+}
